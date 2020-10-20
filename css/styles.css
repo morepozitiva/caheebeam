@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+a, button{
+   transition: all .3 ease-in;
+}
+
+html{
+   font-size: 10px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 300;
+	background-color: #b07cf7;
+}
+
+.container{
+   max-width: 1500px;
+   margin: 0 auto;
+}
+
+.header{
+   background: url(../img/img.jpg);
+   background-size: cover;
+   /* width: 100%; */
+   padding: 0 0 0 166px;
+   display: flex;
+}
+
+.header-logo,
+.header-logo {
+   margin: 50px 0 0 0;
+}
+
+.header-logo h1{
+   font: 400 5rem 'Pacifico', cursive;
+   margin: 0;
+}
+
+.nav{
+   list-style: none;
+   display: flex;
+   position: absolute;
+   top: 50px;
+   right: 20px;
+}
+
+.nav-item{
+   text-transform: uppercase;
+   /* color: #884b4b; */
+   margin: 0 30px;
+}
+
+.nav-item a{
+   color: #000000;
+   font-size: 1.6rem;
+   font-weight: 700;
+   text-decoration: none;
+   border-top: 4px solid transparent;
+}
+
+.nav-item a:hover,
+.nav-item a:focus,
+.nav-item a:active{
+   border-top: 4px solid #ff6033;
+}
+
+.header__content{
+   margin: 231px -115px;
+}
+
+.header__content h2{
+   font-size: 6rem;
+   font-weight: 700;
+   margin: 35px 0;
+}
+
+.header__content p{
+   line-height: 1.6;
+   width: 379px;
+   min-height: 69px;
+   margin: 30px 0;
+}
+
+.header-btn{
+   background-color: #ff6033;
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 2rem;
+   margin: 30px 0;
+   padding: 20px 50px;
+   border: 2px solid transparent;
+   transition: all .3s ease-in;
+}
+
+.header-btn:hover,
+.header-btn:focus,
+.header-btn:active{
+   /* text-decoration: solid; */
+   border: 2px dotted #000000;
+   color: #000000;
+}
+
+.scroll{
+   position: relative;
+   /* margin: 0 0 66px 0;
+   text-align: center; */
+   /* margin: 0 auto; */
+   /* margin: 0 0 66px 0; */
+}
+
+.scroll img{
+   position: absolute;
+   margin: 0;
+   bottom: 66px;
+   right: 50%;
+   margin-left: -50%;
+   transform: translate(-50%, -50%);
+   width: 26px;
+   height: 42px;
+}
+
+.main{
+   background-color: #00b0b0;
+   position: relative;
+}
+
+.main__text{
+   position: absolute;
+   right: 100px;
+   top: 0;
+}
+
+.main__text h2{
+   font-size: 9rem;
+   font-weight: 700;
+   color: #ffffff;
+}
+.main__text p{
+   color: #ffffff;
+   line-height: 1.6;
+   max-width: 500px;
+   min-width: 167px;
+}

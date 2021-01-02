@@ -1,0 +1,79 @@
+.header{
+    min-height: 100vh;
+    background: url(../img/header-bg.jpg);
+    background-size: cover;
+    padding: 0 0 100px 166px;
+    display: flex;
+ }
+ 
+ 
+ .header-logo {
+    margin: 40px 0 0 0;
+ }
+ 
+ .header-logo h1{
+    font: 400 5rem 'Pacifico', cursive;
+    margin: 0;
+ }
+
+ .header__content{
+    margin: 231px -115px;
+ }
+ 
+ .header__content h2{
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 35px 0;
+ }
+ 
+ .header__content p{
+    line-height: 1.6;
+    width: 379px;
+    min-height: 69px;
+    margin: 30px 0;
+ }
+ 
+ .header-btn{
+    background-color: #ff6033;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 30px 0;
+    padding: 20px 50px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in;
+ }
+ 
+ .header-btn:hover,
+ .header-btn:focus,
+ .header-btn:active{
+    border: 2px dotted #000000;
+    color: #000000;
+ }
+ 
+ .scroll{
+    position: relative;
+    margin: 0 auto;
+ }
+ 
+ .scroll img{
+    position: absolute;
+    margin: 0;
+    bottom: 66px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 26px;
+    height: 42px;
+ }
+ 
+ .scroll a img{
+    transform: rotate(0);
+ }
+ 
+ .scroll a img:hover,
+ .scroll a img:focus,
+ .scroll a img:active{
+    transform: rotate(180deg);
+ }

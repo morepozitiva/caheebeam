@@ -1,0 +1,25 @@
+.about{
+    background-color: #00b0b0;
+    position: relative;
+    min-height: 100vh;
+ }
+ 
+ .about__text{
+    position: absolute;
+    right: 100px;
+    top: 199px;
+ }
+ 
+ .about__text h2{
+    font-size: 9rem;
+    font-weight: 700;
+    margin: 0 0 34px;
+    color: #ffffff;
+ }
+ 
+ .about__text p{
+    line-height: 1.6;
+    max-width: 500px;
+    min-width: 167px;
+    color: #ffffff;
+ }

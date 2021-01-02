@@ -1,0 +1,133 @@
+.blog{	
+    color: #ffffff;
+    margin: 96px auto;
+ }
+ 
+ .blog h2{
+     font-size: 9rem;
+     font-weight: 700;
+     text-align: center;
+ }
+ 
+ 
+ .blog__header{
+    margin: 50px auto;
+ }
+ 
+ .blog__text{
+     max-width: 570px;
+     text-align: center;
+     margin: 25px auto;
+     line-height: 25px;
+ }
+ 
+ img{
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: -15px;
+     margin-left: -15px;
+ }
+ .column--md{
+     flex: 0 0 33.3333333333%;
+     max-width: 33.3333333333%;
+ }
+ 
+ .column{	
+     position: relative;
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+ }
+ 
+ .blog__post {
+     position: relative;
+     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+   }
+ 
+   .post__link {
+     display: block;
+     width: 100%;
+     height: 310px;
+     background-size: cover;
+     overflow: hidden;
+   }
+ 
+   .post__link img{
+       transition: all .3s;
+   }
+ 
+   .blog__post:hover .post__link img{
+       transform: scale(1.5);
+   }
+ 
+   .post__body{
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       background: #000000;
+       background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+       pointer-events: none;
+   }
+ 
+   .post__date{
+       font-weight: 900;
+       font-size: 21px;
+       text-transform: uppercase;
+       display: block;
+       width: 60px;
+       height: 60px;
+       background: rgba(30, 30, 30, 0.5);
+       border-radius: 5px;
+       line-height: 25px;
+       text-align: center;
+       margin: 30px 0 0 30px;
+   }
+ 
+   .post__day{
+       font-weight: 700;
+       font-size: 32px;
+   }
+ 
+   .post__title{
+       font-weight: 700;
+       font-size: 20px;
+       margin: 115px 15px 20px 20px;
+   }
+ 
+   .post__author{
+       font-weight: 300;
+       font-size: 13px;
+       margin-left: 20px;
+   }
+ 
+   .post__author__link{
+       text-decoration: none;
+       color: #ffffff;
+   }
+ 
+   .more{
+       display: block;
+       width: 200px;
+       height: 55px;
+       text-decoration: none;
+       color: #ffffff;
+       text-transform: uppercase;
+       background: #f72b3b;
+       margin: 20px auto;
+       padding: 18px 40px;
+       text-align: center;
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+       transition: all .3s ease-in-out;
+   }
+ 
+   .more:hover{
+       color: #f72b3b;
+       background: #ffffff;
+   }

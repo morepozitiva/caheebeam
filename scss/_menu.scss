@@ -1,0 +1,27 @@
+.nav{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+ }
+ 
+ .nav-item{
+    text-transform: uppercase;
+    /* color: #884b4b; */
+    margin: 0 30px;
+ }
+ 
+ .nav-item a{
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+ }
+ 
+ .nav-item a:hover,
+ .nav-item a:focus,
+ .nav-item a:active{
+    border-top: 4px solid #ff6033;
+ }

@@ -9,54 +9,286 @@
    <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
-   <div class="container">
-      <div class="header">
-            <div class="header-logo">
-               <h1>Cahee</h1>
-            </div>
-         <nav class="header-nav">
+   <header class="header" id="top"> 
+      <div class="container">
+         <div class="header-logo">
+            <h1>Cahee</h1>
+         </div>
             <ul class="nav">
                <li class="nav-item">
-                  <a href="#">home</a>
+                  <a href="#top">home</a>
                </li>
                <li class="nav-item">
-                  <a href="#">about</a>
+                  <a href="#about">about</a>
                </li>
                <li class="nav-item">
-                  <a href="#">services</a>
+                  <a href="#services">services</a>
                </li>
                <li class="nav-item">
-                  <a href="#">gallery</a>
+                  <a href="#gallery">gallery</a>
                </li>
                <li class="nav-item">
-                  <a href="#">blog</a>
+                  <a href="#blog">blog</a>
                </li>
                <li class="nav-item">
                   <a href="#">contact</a>
                </li>
             </ul>
-         </nav>
-         <div class="header__content">
-            <h2>Fresh Life</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <a href="#" class="header-btn">GET FREE NOW</a>
-         </div>         
+            <div class="header__content">
+               <h2>Fresh Life</h2>
+               <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               <a href="#" class="header-btn">GET FREE NOW</a>
+            </div>
       </div>
-      <div class="scroll">
-         <a href="#about">
-            <img src="img/scroll.png" alt="">
-         </a>
-      </div>
-      <div class="main" id="about">
-         <img src="img/img-about.png" alt="">
-         <div class="container">
-            <div class="main__text">
+         <div class="scroll">
+            <a href="#about">
+               <img src="img/scroll.png" alt="">
+            </a>
+         </div>
+      
+   </header>
+   <section class="main">
+      <div class="about" id="about">
+         <img src="img/about-bg.png" alt="">
+         <div class="wrapper">
+            <div class="about__text">
                <h2>About Us</h2>
                <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
             </div>
          </div>
       </div>
-   </div>
+      <div class="services" id="services">
+         <div class="wrapper">
+            <div class="services__text">
+               <h2>Our Services</h2>
+            </div>
+         </div>
+         <div class="wrap">
+            <div class="wrap__item">
+                  <a href="">
+                     <div class="wrap__item__text">
+                        <p>Online Shopping</p>
+                     </div>
+                     <div class="wrap__item__line">
+                        <img src="img/line.png" alt="">
+                     </div>
+                     <div class="wrap__item__icon"><img src="img/shopping-icon.png" alt=""></div>
+                  </a>
+            </div>
+            <div class="wrap__item">               
+                  <a href="">
+                     <div class="wrap__item__text">
+                        <p>Quality Product</p>
+                     </div>
+                     <div class="wrap__item__line">
+                        <img src="img/line.png" alt="">
+                     </div>
+                     <div class="wrap__item__icon"><img src="img/qualityproduct-icon.png" alt=""></div>
+                  </a>
+               
+            </div>
+            <div class="wrap__item">               
+               <a href="">
+                  <div class="wrap__item__text">
+                     <p>Domestic & International Delivery</p>
+                  </div>
+                  <div class="wrap__item__line">
+                     <img src="img/line.png" alt="">
+                  </div>
+                  <div class="wrap__item__icon"><img src="img/domestic&internationaldelivery-icon.png" alt=""></div>
+               </a>
+            
+            </div>
+            <div class="wrap__item">               
+               <a href="">
+                  <div class="wrap__item__text">
+                     <p>Well Organized</p>
+                  </div>
+                  <div class="wrap__item__line">
+                     <img src="img/line.png" alt="">
+                  </div>
+                  <div class="wrap__item__icon"><img src="img/wellozganized-icon.png" alt=""></div>
+               </a>
+            
+            </div>                       
+         </div>
+      </div>
+      <div class="gallery" id="gallery">
+         <div class="wrapper">
+            <div class="gallery-text">
+               <h2>Gallery</h2>
+               <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="gallery-images">
+               <div class="row">
+                  <div class="col-8 big-width">
+                     <img src="img/gallery1.jpg">
+                  </div>
+                  <div class="col-4">
+                     <div class="row small-size">
+                        <img src="img/gallery2.jpg">
+                     </div>
+                     <div class="row small-size">
+                        <img src="img/gallery3.jpg">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-6">
+                     <img src="img/gallery4.jpg">
+                  </div>
+                  <div class="col-6">
+                     <img src="img/gallery5.jpg">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-2 offset-5 button">
+                  <a class="gallery-button" href="#">View more</a>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      <div class="subscribe" id="subscribe">
+         <div class="container">
+            <div class="subscribe-text">
+               <h2>Subscribe To Us</h2>
+               <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <form action="#" class="subscribe-form" method="post">
+               <input type="email" name="subscribe" id="esubscribe" placeholder="Your email address..." class="subscribe-form__email">
+               <input type="submit" value="SUBMIT" class="subscribe-form__button">
+            </form>
+         </div>
+      </div>
+      <div class="blog" id="blog">
+         <div class="wrapper">
+            <h2 class="blog__header">Blog</h2>
+			<div class="blog__text">
+				Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit.
+			</div>
+			<div class="row">
+				<div class="column column--md">
+					<div class="blog__post">
+						<a href="#" class="post__link">
+							<img src="img/green.jpg" alt="">
+						</a>
+						<div class="post__body">
+							<p class="post__date"><time class="post__day">20</time> nov</p>
+							<p class="post__title">
+								Green Smoothies: Too Much of a Good Thing?
+							</p>
+							<p class="post__author">
+								By  - 
+								<a href="#" class="post__author__link">
+									Auskteez
+								</a>
+								2 hours ago
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="column column--md">
+					<div class="blog__post">
+						<a href="#" class="post__link">
+						<img src="img/growing.jpg" alt="">
+					</a>
+					<div class="post__body">
+						<p class="post__date">
+							<time class="post__day">14</time> nov</p>
+							<p class="post__title">
+								Growing Food and a “Thirst” for Innovation
+							</p>
+							<p class="post__author">
+								By  - 
+								<a href="#" class="post__author__link">
+									Auskteez
+								</a>
+								3 hours ago
+							</p>
+					</div>
+				</div>
+				</div>
+				<div class="column column--md">
+					<div class="blog__post">
+						<a href="#" class="post__link">
+						<img src="img/pesticides.jpg" alt="">
+					</a>
+					<div class="post__body">
+						<p class="post__date">
+							<time class="post__day">10</time> nov</p>
+							<p class="post__title">
+								Pesticides & Food: What You Need to Know
+							</p>
+							<p class="post__author">
+								By  - 
+								<a href="#" class="post__author__link">
+									Auskteez
+								</a>
+								6 hours ago
+							</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<a href="#" class="more">View more</a>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+		<div class="wrapper">
+			<div class="contact">
+				<div class="contact__text">
+					<h2 class="contact__title">Contact</h2>
+					<p class="contact__desc">
+						For new projects, ideas, business or anything
+						you'd like to discuss, contact with me!
+					</p>
+				</div>
+				<div class="contact__frame">
+					<div class="contact__client">
+						<form action="" method="post">
+							<input type="name" placeholder="Auskteez Tran" class="contact__name contact__client--field">
+						
+							<input type="email" placeholder="Your email" class="contact__email contact__client--field">
+						
+							<input type="tel" placeholder="Your phone number" class="contact__tel contact__client--field">
+						
+							<textarea rows="5" cols="45" name="text" placeholder="Your message..." class="contact__message contact__client--field"></textarea>
+						</form>
+					</div>
+					<div class="contact__type">
+						<div class="contact__type--adress">
+							<p class="contact__type--name">Addres</p>
+							<p class="contact__type--desc">123 City name, Street, City, Country</p>
+						</div>
+						<div class="contact__type--email">
+							<p class="contact__type--name">Email</p>
+							<p class="contact__type--desc">cahee@domain.com</p>
+						</div>
+						<div class="contact__type--phone">
+							<p class="contact__type--name">Phone</p>
+							<p class="contact__type--desc">+012 345 6789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+				<div class="copyright__right">
+					<p>© 2015 Company. All right reserved.</p>
+				</div>
+				<div class="copyright__logo">
+					<a class="copyright__logo--minilogo" href="#">Cahee</a>
+				</div>
+				<div class="copyright__author">
+					<p>Made with <span class="copyright__love">love</span> by Auskteez</p>
+				</div>
+			</div>
+	</footer>
 </body>
 </html>

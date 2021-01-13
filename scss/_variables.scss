@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;400;700&display=swap');
 
-$ff: 'Lato', sans-serif;
+// fonts
+$raleway: 'Raleway', sans-serif;
+$pacifico: 'Pacifico', cursive;
 
-$dark: #3c3c3c;
-$light: #fff;
+// colors
 
-$brand: #abb6cc;
-
-$b-width: 2px;
+$white: #fff;
+$black: #000;
+$lgray: #b07cf7;
